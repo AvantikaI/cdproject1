@@ -1,0 +1,35 @@
+Static Analysis Report for: D:\files\Desktop\CD project\test.java
+==================================================
+
+Line 0: [Syntax Error]
+Message: Expected ';'
+Suggestion: Check Java syntax rules
+--------------------------------------------------
+Line 1: [Missing Bracket]
+Message: Unmatched opening brace '{'
+Suggestion: Add corresponding closing brace
+--------------------------------------------------
+Line 3: [Missing Bracket]
+Message: Unmatched opening brace '{'
+Suggestion: Add corresponding closing brace
+--------------------------------------------------
+Line 6: [Syntax Error]
+Message: Missing semicolon
+Suggestion: Add semicolon at end of statement
+--------------------------------------------------
+Line 18: [Syntax Error]
+Message: Missing semicolon
+Suggestion: Add semicolon at end of statement
+--------------------------------------------------
+Line 21: [Security Issue]
+Message: Possible hardcoded password
+Suggestion: Move password to config/environment
+--------------------------------------------------
+Line 22: [Security Issue]
+Message: Possible hardcoded password
+Suggestion: Move password to config/environment
+--------------------------------------------------
+Line 30: [Undefined Method]
+Message: Method 'callThisDoesNotExist' called but not defined
+Suggestion: Define the method or remove call
+--------------------------------------------------
