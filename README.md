@@ -28,6 +28,12 @@ Designed to detect code smells, style issues, and potential bugs using AST parsi
 2. **Rule Engine** — Applies each static-analysis rule.
 3. **Reporter Module** — Formats results in text or JSON.
 
+## 🔄 Future Work
+➕ Add more Java-specific rules (e.g., null-check enforcement)
+📣 Integrate with CI pipelines (GitHub Actions)
+📈 Enhance reporting (HTML, SonarQube JSON)
+🤝 Support other JVM languages like Kotlin
+
 ## 🔧 Installation
 
 ```bash
